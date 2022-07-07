@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Quicksand:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- my Stylesheet -->
+    <link rel="stylesheet" href="/dash_styes.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a href="" class="navbar-brand">SOVA</a>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/index.html"  >SignUp/Login</a>
+            </li>
+        </ul>
+      <!-- </div> -->
+    </nav>
+
+    <!-- main -->
+
+    <!-- drop-zone -->
+    <div class="row">
+        <div class="col-lg-6"  >
+            <div class="card recent-files">
+              <div class="card-header">
+            <h3>Your Recent Files</h3>
+              </div>
+              <div class="card-body">
+                <h1>No Recent Files</h1>
+              </div> 
+              </div>
+              
+            <div class="card">
+              <div class="card-header">
+            <h3>Instructions</h3>
+              </div>
+              <div class="card-body">
+                <p class="para">Upload</p>
+                <p class="para"><img src="/arrow.png" alt="arrow" class="arrow"></p>
+                <p class="para">Choose Language</p>
+                <p class="para"><img src="/arrow.png" alt="arrow" class="arrow"></p>
+                <p class="para">Download</p>
+              </div> 
+              </div>
+          </div>
+        <div class="col-lg-6"  >
+            <div class="input-url">
+                <label for="url">input url:  </label>
+                <input type="url" class="for-url">
+            </div>
+            <form action="">
+                <div class="drop-zone">
+                    <span class="drop-zone_prompt">Drop your file here or click to upload</span>
+                    <!-- <div class="drop-zone_thumb" data-label="myFile.pdf"></div> -->
+                    <input type="file" name="myFile" class="drop-zone_input" id="">
+                </div>
+            </form>
+        </div>
+        
+    </div>
+   
+
+
+
+
+     <!-- Footer -->
+
+  <!-- <footer id="footer">
+    <div class="footer-links">
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+  </div>
+    <p class="copyright">© Copyright 2022 TinDog</p>
+
+  </footer> -->
+
+
+    <script src="/dashboard.js"></script>
+
+
+
+</body>
+</html>
